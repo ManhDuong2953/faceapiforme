@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "0e19aacd-baf3-4282-a545-d6ee61284bd9",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31852641"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image_file",
+							"type": "file",
+							"src": []
+						},
+						{
+							"key": "user_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "user_name",
+							"value": "Dương Văn Mạnh",
+							"type": "text"
+						},
+						{
+							"key": "image_number",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
